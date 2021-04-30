@@ -9,32 +9,125 @@
         <script defer
         src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
         ></script>
-        <link rel="stylesheet" href="/src/css/style.css">
-        <script src="/src/js/index.js" defer></script>
+        <link rel="stylesheet" href="/Project-app/src/css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Freshers App</title>
     </head>
+
+
+  
     <body>
 
 
         <div class="background-ya">
             <nav class="not-index">
 
-                <a href="/index.html"><img class="logo" src="/src/img/Edge-Hill-University.png" alt="logo"></a>
+                <a href="/Project-app/index.html"><img class="logo" src="/Project-app/src/img/Edge-Hill-University-new.png" alt="logo"></a>
                 <button class="hamburger" id="hamburger">
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul class="nav-links nav-center" id="other-navs">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/pages/Freshers.html">Freshers Events</a></li>
+                    <li><a href="/Project-app/index.html">Home</a></li>
+                    <li><a href="/Project-app/pages/freshers.html">Freshers Events</a></li>
                     <li><a href="#">Locations</a></li>
-                    <li><a href="/pages/contact.html">Contact</a></li>
+                    <li><a href="/Project-app/pages/contact.html">Contact</a></li>
                 </ul>
 
             </nav>
         </div>
         <div class="wrapper">
             <h1>Locations</h1>
+            <p>In the first week of University it can seem very overwheelming and trying to find all the new places
+                and what building serve what purspose so this is a quick run down of the main buildings that will be 
+                good to know before you get here.
+            </p>
+
+            <section class="about-lessons ">
+
+              
+               
+                <!--  REF : https://www.youtube.com/watch?v=6ophW7Ask_0&t=1616s -->
+                <!-- Modal buttons -->
+                <div class="modal-flex">
+                <h2 class="purple">Buildings for learning</h2>
+                    <button class="modal-open modal4" data-modal="modal4"><h3>Tech Hub</h3></button>
+                    <button class="modal-open modal5" data-modal="modal5"><h3>Catalyst / library</h3></button>
+                <h2 class="green">Building for food/freshers event</h2>
+                    <button class="modal-open modal6" data-modal="modal6"><h3>Main Building</h3></button>
+                <h2 class="red">Enjoy your sports</h2>
+                    <button class="modal-open modal7" data-modal="modal7"><h3>Sports/Gym</h3></button>
+                </div>
+                
+                <!-- Modals -->
+                <div class="modal" id="modal4">
+                    <div class="modal-content loc-width">
+                        <div class="modal-header">Tech Hub
+                         
+                            <button class="icon modal-close"><i class="material-icons">close</i></button></div>
+                            <div class="modal-body">
+                                <p>This building is the main building that will be used throughout the degree for 
+                                    most students.
+                                </p>
+                                <p>The building itself has three floors but we will not use the top floor as this is 
+                                    another department. </p>
+                                <ul>First Floor
+                                    <li>Lecture hall</li>
+                                    <li>The CAVE, a 4k super immersive 3D environment</li>
+                                    <li>Seminar rooms</li>
+                                    <li>Lectures offices at the back</li>
+                                </ul>
+                                <ul>Second Floor
+                                    <li>Private rooms(ones to ones or groups study basiclly if you need its to be quite)</li>
+                                    <li>Seminar rooms</li>
+                                    <li>Lectures offices at the back</li>
+                                    <li>Chiars and Tables set up for students</li>
+                                </ul>
+                                
+                            
+                            </div>
+                    </div>
+                </div>
+
+                <div class="modal" id="modal5">
+                    <div class="modal-content loc-width">
+                        <div class="modal-header">Catalyst
+                            <button class="icon modal-close"><i class="material-icons">close</i></button></div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A quam, maiores similique 
+                                molestias dipisci officia. Nesciunt eum officia nostrum dolor alias quasi, 
+                                possimus magni, quam fugit molestias maxime, labore repudiandae.
+                            </div>
+                            <div class="modal-footer"><button class="link modal-close">Close Modal</button></div>
+                    </div>
+                </div>
+                <div class="modal" id="modal6">
+                    <div class="modal-content loc-width">
+                        <div class="modal-header">Main Building
+                            <button class="icon modal-close"><i class="material-icons">close</i></button></div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A quam, maiores similique 
+                                molestias dipisci officia. Nesciunt eum officia nostrum dolor alias quasi, 
+                                possimus magni, quam fugit molestias maxime, labore repudiandae.
+                            </div>
+                            <div class="modal-footer"><button class="link modal-close">Close Modal</button></div>
+                    </div>
+                </div>
+                <div class="modal" id="modal7">
+                    <div class="modal-content loc-width">
+                        <div class="modal-header">Sports
+                            <button class="icon modal-close"><i class="material-icons">close</i></button></div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. A quam, maiores similique 
+                                molestias dipisci officia. Nesciunt eum officia nostrum dolor alias quasi, 
+                                possimus magni, quam fugit molestias maxime, labore repudiandae.
+                            </div>
+                            <div class="modal-footer"><button class="link modal-close">Close Modal</button></div>
+                    </div>
+                </div>
+
+           
+            </section>
         </div>
-        
+        <script src="/Project-app/src/js/location.js" defer></script>
     </body>
 </html>

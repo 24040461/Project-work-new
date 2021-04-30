@@ -64,14 +64,17 @@ h2{
 .purple{
     background-color: rgba(171, 27, 161, 0.5);
     border-radius: 10px;
+    margin-bottom: .3em;
 }
 .yellow{
     background-color: rgb(203, 232, 19, 0.5);
     border-radius: 10px;
+    margin-bottom: .3em;
 }
 .green{
     background-color: rgba(19, 232, 69, 0.5);
     border-radius: 10px;
+    margin-bottom: .3em;
 }
 .red{
     background-color: rgba(203, 21, 21, 0.5);
@@ -297,18 +300,41 @@ nav{
 }
 
 .modal1{
-    background-image: url(/src/img/lecture.jpg);
+    background-image: url(/Project-app/src/img/lecture.jpg);
     background-position: center;
     background-size: cover;
     
 }
 .modal2{
-    background-image: url(/src/img/seminar.jpg);
+    background-image: url(/Project-app/src/img/seminar.jpg);
     background-position: center;
     background-size: cover; 
 }
 .modal3{
-    background-image: url(/src/img/1-1.jpg);
+    background-image: url(/Project-app/src/img/1-1.jpg);
+    background-position: center;
+    background-size: cover; 
+    margin-bottom: 2em;
+}
+.modal4{
+    background-image: url(/Project-app/src/img/techhub.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.modal5{
+    background-image: url(/Project-app/src/img/catalyst.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.modal6{
+    background-image: url(/Project-app/src/img/food\ place.jpg);
+    background-position: center;
+    background-size: cover; 
+   
+}
+.modal7{
+    background-image: url(/Project-app/src/img/sports.jpg);
     background-position: center;
     background-size: cover; 
     margin-bottom: 2em;
@@ -335,6 +361,12 @@ nav{
     padding: 8px 24px;
     border-radius: 4px;
     z-index: 4;
+}
+
+.loc-width{
+    width: 80%;
+    margin: 6% auto;
+    padding: 2px 12px;
 }
 
 .modal-header{
@@ -371,6 +403,10 @@ nav{
     border-radius: 4px;
     color: #1a73e8;
 
+}
+
+iframe{
+    width: 100%;
 }
 
 
