@@ -60,6 +60,10 @@ h2{
     text-align: center;
 }
 
+.center{
+    text-align: center;
+}
+
 /* Styleing H Tages */
 .purple{
     background-color: rgba(171, 27, 161, 0.5);
@@ -417,4 +421,60 @@ iframe{
     } to {
         opacity: 1;
     }
+}
+
+
+/* Admin page login styling */
+.login-heading {
+ text-align: center;
+ margin: 0;
+ 
+}
+.login-wrapper{
+    border: purple solid .5px;
+    width: 60%;
+    margin: 4em auto;
+    border-radius: 20px;
+    
+    
+}
+.inner-wrapper{
+    margin: 1em 2em;
+}
+
+.input-field input{
+    width: 85%;
+    padding: 1em 1em;
+    
+    border-radius: 5px;
+    font-size: 1em;
+}
+.input-field label{
+   font-size: 1.25em;
+   font-weight: 600;
+   margin: 0;
+}
+
+.btn-login{
+    background-color: rgb(145, 42, 179);;
+    padding: 1.5em 1em;
+    color: white;
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
+    margin: .8em 0;
+    margin-top: 3em;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+.password {
+    margin-top: 1em;
+    
 }

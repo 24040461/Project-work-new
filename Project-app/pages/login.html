@@ -19,23 +19,45 @@
         <div class="background-ya">
             <nav class="not-index">
 
-                <a href="/index.html"><img class="logo" src="/Project-app/src/img/Edge-Hill-University-new.png" alt="logo"></a>
+                <a href="/Project-app/index.html"><img class="logo" src="/Project-app/src/img/Edge-Hill-University-new.png" alt="logo"></a>
                 <button class="hamburger" id="hamburger">
                     <i class="fas fa-bars"></i>
                 </button>
                 <ul class="nav-links nav-center" id="other-navs">
                     <li><a href="/Project-app/index.html">Home</a></li>
-                    <li><a href="#">Freshers Events</a></li>
+                    <li><a href="/Project-app/pages/freshers.html">Freshers Events</a></li>
                     <li><a href="/Project-app/pages/locations.html">Locations</a></li>
                     <li><a href="/Project-app/pages/contact.html">Contact</a></li>
-                    <li><a href="/Project-app/pages/login.html">Admin Login</a></li>
                 </ul>
 
             </nav>
         </div>
-        <div class="wrapper">
-            <h1>Freshers</h1>
+            <div class="login-wrapper">
+                <div class="inner-wrapper">
+            <h1 class="login-heading">Admin Login</h1>
+                <form id="login-form">
+                    <div class="input-field">
+                        <label for="login-email">Email </label> <br>
+                        <input type="email" id="login-email"  required />
+                        
+                    </div>
+                    <div class="input-field ">
+                        <div class="password">
+                      <label for="login-password">Password</label> <br>
+                      <input type="password" id="login-password"  required />
+                      
+                        </div>
+                    </div>
+                    <div class="flex">
+                    <button class="btn-login">Login</button>
+                    </div>
+                </form>
         </div>
+    </div>
+    
+              
+            
+       
         <script src="/Project-app/src/js/index.js" defer></script>
     </body>
 </html>
