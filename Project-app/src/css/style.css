@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;800&display=swap');
 
 
 /* CSS VARIABLES */
@@ -41,17 +41,21 @@ p{
 }
 
 h1{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-bottom: 0px;
-    
     padding: 1em 0;
 }
 
 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 40px;
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .7);
+    width: fit-content;
+    text-align: center;
 }
 h2{
     margin: 0;
@@ -268,6 +272,10 @@ nav{
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.3);
     margin: .8em 0;
 }
+.btn-newPage:active {
+    padding: 2em 4em;
+    transition-duration: 1s;
+}
 
 .flex h2{
     margin-right: auto;
@@ -393,6 +401,7 @@ nav{
 .modal-body{
     color: #7b7b7b;
     padding: 15px 20px;
+    font-size: 13px;
 }
 
 .modal-footer{
@@ -409,7 +418,12 @@ nav{
 
 }
 
+ul{
+    margin-bottom: 2em;
+}
+
 iframe{
+    height: 300px;
     width: 100%;
 }
 
@@ -432,7 +446,7 @@ iframe{
 }
 .login-wrapper{
     border: purple solid .5px;
-    width: 60%;
+    width: 80%;
     margin: 4em auto;
     border-radius: 20px;
     
