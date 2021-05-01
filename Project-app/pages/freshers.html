@@ -9,7 +9,12 @@
         <script defer
         src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
         ></script>
+         <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+
         <link rel="stylesheet" href="/Project-app/src/css/style.css">
+        <link rel="stylesheet" href="/Project-app/src/css/freshers.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Freshers App</title>
     </head>
@@ -33,9 +38,51 @@
 
             </nav>
         </div>
-        <div class="wrapper">
+        
             <h1>Freshers</h1>
+            <div class="fresher-wrapper">
+            <form id="add-event-form">
+                <div class="adding-info">
+                    Title
+                <input type="text" name="title" placeholder="Title">
+                    Discription
+                <textarea class="disc-input" type="text" name="disc" placeholder="Write here"></textarea>
+                
+                <button>Add Events</button>
+            </div>
+            </form>
+           
+            <div class="content">
+
+                
+                <h2 class="title-events">Events</h2>
+                <ul class="fresh-ul" id="event-list">
+
+                </ul>
+
+            </div>
         </div>
-        <script src="/Project-app/src/js/index.js" defer></script>
+    
+
+            <!-- TODO: Add SDKs for Firebase products that you want to use
+                https://firebase.google.com/docs/web/setup#available-libraries -->
+
+            <script>
+            // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyA1PqGP614gXigN5SmnK3vk-ravIUfucI8",
+                authDomain: "freshers-eventehu.firebaseapp.com",
+                projectId: "freshers-eventehu",
+                storageBucket: "freshers-eventehu.appspot.com",
+                messagingSenderId: "523462044684",
+                appId: "1:523462044684:web:e6fd94901875a694341229"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore()
+            
+        </script>   
+        <script src="/Project-app/src/js/freshers.js"></script>
+      
     </body>
 </html>

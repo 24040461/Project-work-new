@@ -9,6 +9,12 @@
         <script defer
         src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
         ></script>
+
+          <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-auth.js"></script>
+        
         <link rel="stylesheet" href="/Project-app/src/css/style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Freshers App</title>
@@ -57,7 +63,24 @@
     
               
             
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyA1PqGP614gXigN5SmnK3vk-ravIUfucI8",
+            authDomain: "freshers-eventehu.firebaseapp.com",
+            projectId: "freshers-eventehu",
+            storageBucket: "freshers-eventehu.appspot.com",
+            messagingSenderId: "523462044684",
+            appId: "1:523462044684:web:e6fd94901875a694341229"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+        const auth = firebase.auth();
+
+
+    </script>
+        <script src="/Project-app/src/js/auth.js" defer></script>
        
-        <script src="/Project-app/src/js/index.js" defer></script>
     </body>
 </html>
